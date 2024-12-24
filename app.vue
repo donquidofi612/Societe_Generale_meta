@@ -1,18 +1,26 @@
 <template>
-  <NuxtLayout>
+  <NuxtLayout :style="{ '--primary-rgb': bankData.primaryColor }">
     <NuxtLoadingIndicator />
     <!-- here -->
     <NuxtPage />
   </NuxtLayout>
 </template>
 <script setup lang="ts">
-
+import * as bankData from '@/data/financialData.js';
+import Swal from 'sweetalert2';
 const getImagePath = (imageName: any) => {
   const publicPath = import.meta.env.BASE_URL || '/nuxt/';
-  return ${publicPath}${imageName};
+  return `${publicPath}${imageName}`;
 }
+
+onMounted(async () => {
+
+
+
+});
+
 useHead({
-  title: 'Societe General',
+  title: 'Banque Populaire',
   // link: [{ rel: 'icon', type: 'image/png', href: getImagePath('images/brand-logos/favicon.ico') }]
 })
 </script>
@@ -22,7 +30,7 @@ useHead({
 }
 
 :root {
-  --primary-rgb: 232, 4, 29; /* Définit la couleur primaire en rouge */
+  --primary-rgb: 231, 0, 39; /* Définit la couleur primaire en rouge */
 }
 </style>
 
