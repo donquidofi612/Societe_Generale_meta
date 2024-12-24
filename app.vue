@@ -31,4 +31,3 @@ useHead({
 export default {
 };
 </script>
-
