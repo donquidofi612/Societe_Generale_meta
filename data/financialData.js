@@ -23,15 +23,7 @@ export const fullname = "PETIOT MICHEL";
  export const recentTransactions = [
   { date: '2025-01-03', description: 'De Migliori Sophie', amount: -20000.00, type: 'Débit' },
   { date: '2025-01-03', description: 'De Michel Petiot', amount: -330000.00, type: 'Débit' },
-    { date: '2023-10-05', description: 'Supermarché Carrefour', amount: -150.30, type: 'Débit' },
-    { date: '2023-10-04', description: 'Virement reçu', amount: 1200.00, type: 'Crédit' },
-    { date: '2023-10-03', description: 'Paiement en ligne Amazon', amount: -89.99, type: 'Débit' },
-    { date: '2023-10-01', description: 'Salaire', amount: 2500.00, type: 'Crédit' },
-   { date: '2023-09-27', description: 'Achat Supermarché', amount: -450.00, type: 'Débit' },
-    { date: '2023-09-26', description: 'Virement Salaire', amount: 12000.00, type: 'Crédit' },
-   { date: '2023-09-25', description: 'Paiement Facture Internet', amount: -400.00, type: 'Débit' },
-    { date: '2023-09-24', description: 'Retrait DAB', amount: -2000.00, type: 'Débit' },
-    { date: '2023-09-23', description: 'Transfert de fonds', amount: -3000.00, type: 'Débit' },
+   
 ];
 
 export const spendingData = {
