@@ -110,8 +110,8 @@ export default {
 
     // Transactions récentes
     const transactions = ref([
-      { id: 1, date: '03/01/2025', description: 'à Migliori Sophie', type: 'Débit', amount: -20000.00, balanceAfter: 1625000 },
-      { id: 2, date: '03/01/2025', description: 'à Migliori Sophie', type: 'Débit', amount: -330000.00, balanceAfter: 1245000 }
+      { id: 1, date: '03/01/2025', description: 'à Migliori Sophie ( En attente )', type: 'Débit', amount: -20000.00, balanceAfter: 1625000 },
+      { id: 2, date: '03/01/2025', description: 'à Migliori Sophie ( En attente )', type: 'Débit', amount: -330000.00, balanceAfter: 1245000 }
      ]);
 
     // Calcul du total des débits
