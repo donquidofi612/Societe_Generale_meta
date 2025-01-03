@@ -121,13 +121,7 @@ export default {
     const availableBalance = ref(currentBalance.value + overdraftLimit.value); // Solde disponible
 
     // Historique des transactions
-    const transactions = ref([
-      { id: 1, date: '01/10/2024', description: 'Paiement Restaurant', amount: -300 },
-      { id: 2, date: '30/09/2024', description: 'Virement Salaire', amount: 15000 },
-      { id: 3, date: '29/09/2024', description: 'Paiement Facture Électricité', amount: -200 },
-      { id: 4, date: '28/09/2024', description: 'Retrait DAB', amount: -1000 },
-      { id: 5, date: '27/09/2024', description: 'Achat Supermarché', amount: -450 }
-    ]);
+    
 
     // Données pour le graphique des dépenses
     const chartSeries = ref([
