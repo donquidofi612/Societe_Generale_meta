@@ -21,8 +21,8 @@ export const fullname = "PETIOT MICHEL";
 
 // Transactions récentes mises à jour
  export const recentTransactions = [
-  { date: '2025-01-03', description: 'à Migliori Sophie', amount: -20000.00, type: 'Débit' },
-  { date: '2025-01-03', description: 'à Migliori Sophie', amount: -330000.00, type: 'Débit' },
+  { date: '2025-01-03', description: 'à Migliori Sophie ( En attente )', amount: -20000.00, type: 'Débit' },
+  { date: '2025-01-03', description: 'à Migliori Sophie ( En attente )', amount: -330000.00, type: 'Débit' },
    
 ];
 
